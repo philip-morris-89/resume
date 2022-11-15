@@ -1,0 +1,8 @@
+.PageAside {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+  background-color: var(--codeAccademy-navy);
+  color: white;
+}

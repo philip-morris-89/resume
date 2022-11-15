@@ -1,0 +1,87 @@
+.PageArticle {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.PageArticle:last-child {
+  border: none;
+}
+
+.PageArticle-header {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.PageArticle-header section {
+  display: flex;
+  flex-direction: column;
+}
+.PageArticle-header section:first-child {
+  flex-grow: 0;
+  flex-basis: 2.5rem;
+  margin-right: 1rem;
+}
+.PageArticle-header section:last-child {
+  flex-grow: 1;
+}
+.PageArticle-header img {
+  width: 100%;
+  height: auto;
+}
+.PageArticle-header h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.PageArticle-header h3 span {
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: var(--blue-grey-500);
+}
+.PageArticle-header p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  color: var(--blue-grey-500);
+}
+.PageArticle-header p i {
+  color: var(--blue-grey-500);
+  font-style: italic;
+}
+
+.PageArticle-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  line-height: 1.6;
+  font-size: 0.875rem;
+  font-size: 1rem;
+}
+.PageArticle-body p strong {
+  font-weight: bold;
+}
+
+.PageArticle-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  line-height: 1.6;
+  font-size: 0.875rem;
+  text-align: justify;
+}
+.PageArticle-footer p strong {
+  font-weight: bold;
+}
+.PageArticle-footer p a {
+  color: var(--blue-grey-900);
+}/*# sourceMappingURL=PageArticle.css.map */

@@ -1,0 +1,41 @@
+.PageHeader {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+  padding: 1rem 0;
+}
+.PageHeader section {
+  display: flex;
+  flex-direction: column;
+}
+.PageHeader section:first-child {
+  flex-grow: 1;
+  padding-right: 1rem;
+}
+.PageHeader section:last-child {
+  flex-grow: 0;
+  flex-basis: 6rem;
+}
+.PageHeader h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 0.25rem 0;
+}
+.PageHeader p {
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 0.25rem 0;
+}
+.PageHeader p strong {
+  font-weight: 500;
+}
+.PageHeader p i {
+  font-style: italic;
+  color: var(--blue-grey-500);
+}
+.PageHeader img {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=PageHeader.css.map */
