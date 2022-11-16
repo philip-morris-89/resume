@@ -5,4 +5,48 @@
   flex-shrink: 0;
   background-color: var(--codeAccademy-navy);
   color: white;
+  padding: 2rem;
+  line-height: 1.6;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      padding: 0.25rem 0;
+
+      h5 {
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      h6 {
+        color: white;
+        font-size: 0.875rem;
+      }
+      p {
+        font-size: 0.875rem;
+        color: rgba(255, 255, 255, 0.75);
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        color: rgba(255, 255, 255, 0.75);
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      p strong {
+        // font-weight: bold;
+        color: white;
+      }
+    }
+  }
+
+  .PageAside-certifications li {
+    padding: 0.5rem 0;
+  }
 }

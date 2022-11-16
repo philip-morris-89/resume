@@ -1,0 +1,7 @@
+.PageFooter {
+  flex-grow: 0;
+}
+.PageFooter h6 {
+  font-size: 0.875rem;
+  color: var(--blue-grey-500);
+}/*# sourceMappingURL=PageFooter.css.map */

@@ -5,4 +5,43 @@
   flex-shrink: 0;
   background-color: var(--codeAccademy-navy);
   color: white;
+  padding: 2rem;
+  line-height: 1.6;
+}
+.PageAside ul {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+}
+.PageAside ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0;
+}
+.PageAside ul li h5 {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.PageAside ul li h6 {
+  color: white;
+  font-size: 0.875rem;
+}
+.PageAside ul li p {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+.PageAside ul li a {
+  text-decoration: none;
+  color: white;
+  color: rgba(255, 255, 255, 0.75);
+}
+.PageAside ul li a:hover {
+  text-decoration: underline;
+}
+.PageAside ul li p strong {
+  color: white;
+}
+.PageAside .PageAside-certifications li {
+  padding: 0.5rem 0;
 }/*# sourceMappingURL=PageAside.css.map */

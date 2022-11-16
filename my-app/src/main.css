@@ -393,14 +393,6 @@ main {
   flex-grow: 1;
 }
 
-.PageFooter {
-  flex-grow: 0;
-}
-.PageFooter h6 {
-  font-size: 0.875rem;
-  color: var(--blue-grey-500);
-}
-
 h2 {
   font-size: 1.25rem;
   padding: 1rem 0;
