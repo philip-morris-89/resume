@@ -16,6 +16,10 @@ class PageAside extends React.Component {
             <p><a href="https://www.linkedin.com/in/filipposcelfo/" target="blank">www.linkedin.com/in/filipposcelfo</a></p>
           </li>
           <li>
+            <h6>GitHub:</h6>
+            <p><a href="https://github.com/philip-morris-89" target="blank">www.github.com/philip-morris-89</a></p>
+          </li>
+          <li>
             <h6>Phone:</h6>
             <p>+39 347 0705572</p>
           </li>
